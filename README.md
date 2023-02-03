@@ -1,0 +1,2 @@
+# API-for-location-monitoring-in-Java
+This code provides a simple API for monitoring the location of devices. The LocationMonitorAPI class has a Map to store the location information, where the deviceId is the key and the location is the value. The addLocation method adds the location information to the Map, and the getLocation method returns the location of the device with the given deviceId. You can add additional features to the API and improve the code to meet your requirements.
