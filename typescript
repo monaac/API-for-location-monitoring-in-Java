@@ -1,0 +1,18 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class LocationMonitorAPI {
+  private Map<String, String> locationMap;
+
+  public LocationMonitorAPI() {
+    locationMap = new HashMap<>();
+  }
+
+  public void addLocation(String deviceId, String location) {
+    locationMap.put(deviceId, location);
+  }
+
+  public String getLocation(String deviceId) {
+    return locationMap.get(deviceId);
+  }
+}
